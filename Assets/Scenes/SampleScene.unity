@@ -5415,7 +5415,12 @@ MonoBehaviour:
   - {fileID: 2087806366}
   - {fileID: 113748196}
   musicAudioSource: {fileID: 1831095823}
-  musics: []
+  musics:
+  - {fileID: 8300000, guid: 6772b3e93abe0ce428b879b9f9324f43, type: 3}
+  - {fileID: 8300000, guid: a8e46f7f87a7cf343a37a64b8a9a09fb, type: 3}
+  - {fileID: 8300000, guid: bb00e5d4b965848438362d338b1ecac3, type: 3}
+  - {fileID: 8300000, guid: 46029823642559149b3ad4c4264704e3, type: 3}
+  - {fileID: 8300000, guid: 20c26a4871859854a8a207c71a10c0fe, type: 3}
   musicIndex: 0
   cameraAnimator: {fileID: 0}
   cameraTreshold: 1.1
@@ -7043,7 +7048,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 6772b3e93abe0ce428b879b9f9324f43, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.1
   m_Pitch: 1

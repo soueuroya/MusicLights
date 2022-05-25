@@ -93,7 +93,7 @@ public class SpotLightManager : MonoBehaviour
 
                 average /= count;
 
-                freqBand[i] = average * 50;
+                freqBand[i] = average * 50; //512   1-40    2-80    3-100 ....
             }
 
             for (int i = 0; i < bandBuffer.Length; i++) // Create the 8 buffers for each band and update the speed of down movement
